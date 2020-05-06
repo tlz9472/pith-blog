@@ -23,10 +23,15 @@ export async function getStaticProps({ params }) {
 export default function Post({ postData }) {
     return (
         <Layout title={`${postData.title} - Pith Blog`} description="Test">
-            <h1>{postData.title}</h1>
-            <h2>{postData.author}</h2>
-            <Date dateString={postData.date} />
-            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            <div className="post-wrapper">
+                <h2 className="post-title">{postData.title}</h2>
+                <Date className="post-date" dateString={postData.date} />
+                <div className="post-author">{postData.author}</div>
+                <div
+                    className="post-content"
+                    dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+                />
+            </div>
         </Layout>
     );
 }
