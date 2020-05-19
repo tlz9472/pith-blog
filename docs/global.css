@@ -7,7 +7,7 @@
     --light-dark: #707070;
     --light-light: #fafafa;
     --mid-light: #f0f0f0;
-    --dark-light: #e0e0e0;
+    --dark-light: #dcdcdc;
     --post-width: 550px;
     --post-padding: 30px;
     --post-padding-ver: 20px;
@@ -71,6 +71,7 @@ nav {
     padding: var(--post-padding-ver) var(--post-padding);
     max-width: var(--post-width);
     margin: 0 auto;
+    margin-bottom: 40px;
     background-color: var(--reading-color);
     border: 1px solid var(--reading-color);
 }
@@ -86,11 +87,15 @@ nav {
     color: var(--heading-text);
 }
 
+.large {
+    font-size: 2.2rem;
+}
+
 .about {
     margin: 0 auto;
     margin-bottom: 40px;
     max-width: calc(var(--post-width) + var(--post-padding) * 2);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 @media (max-width: 600px) {

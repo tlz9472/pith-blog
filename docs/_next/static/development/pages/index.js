@@ -23001,7 +23001,7 @@ function Home(_ref) {
       lineNumber: 17,
       columnNumber: 9
     }
-  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac dui vel nunc bibendum sodales. Nulla at lorem velit. Suspendisse bibendum feugiat turpis ac sollicitudin."), allPostsData.map(function (_ref2) {
+  }, "Pith is an experimental online discussion space that builds on the notion of an electronic direct democracy. This is a place where articles about how and why it's being designed are posted."), allPostsData.map(function (_ref2) {
     var id = _ref2.id,
         date = _ref2.date,
         author = _ref2.author,

@@ -22994,7 +22994,7 @@ function Post(_ref) {
       columnNumber: 13
     }
   }, __jsx("h2", {
-    className: "post-title",
+    className: "post-title large",
     __self: this,
     __source: {
       fileName: _jsxFileName,

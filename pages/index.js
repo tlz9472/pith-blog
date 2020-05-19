@@ -15,9 +15,9 @@ export default function Home({ allPostsData }) {
     <div>
       <Layout title="Posts - Pith Blog">
         <p className="about">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac dui
-          vel nunc bibendum sodales. Nulla at lorem velit. Suspendisse bibendum
-          feugiat turpis ac sollicitudin.
+          Pith is an experimental online discussion space that builds on the
+          notion of an electronic direct democracy. This is a place where
+          articles about how and why it's being designed are posted.
         </p>
         {allPostsData.map(({ id, date, author, title, summary }) => (
           <div key={id}>
