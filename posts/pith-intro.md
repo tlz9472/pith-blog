@@ -2,7 +2,7 @@
 title: "Pith: What is It?"
 date: "2020-05-18"
 author: "Christian Broms"
-summary: "Pith is an experimental method of facilitating discussions between many people online; building on the notion of an electronic direct democracy. Here are some..."
+summary: "Pith is an experimental method of facilitating discussions between many people online, building on the notion of an electronic direct democracy. Here are some..."
 ---
 
 Pith is an experimental method of facilitating discussions between many people online, building on the notion of an electronic direct democracy. Here are some of the key goals we're keeping in mind and the direction we're headed.
