@@ -10,12 +10,14 @@ export async function getStaticProps() {
   };
 }
 
+const descript = "Pith is an experimental online discussion space that builds on the notion of an electronic direct democracy. This is a place where articles about how and why it's being designed are posted";
+
 export default function Home({ allPostsData }) {
   return (
     <div>
-      <Layout title="Posts - Pith Blog">
+      <Layout title="Posts - Pith Blog" description={descript}>
         <p className="about">
-          Pith is an experimental online discussion space that builds on the
+        <a href="/posts/pith-intro">Pith</a> is an experimental online discussion space that builds on the
           notion of an electronic direct democracy. This is a place where
           articles about how and why it's being designed are posted.
         </p>
@@ -26,7 +28,7 @@ export default function Home({ allPostsData }) {
                 <h2 className="post-title">{title}</h2>
                 <Date className="post-date" dateString={date} />
                 <div className="post-author">{author}</div>
-                <summary className="post-summary">{summary}</summary>
+                <summary className="post-summary">{summary.substring(0, 155) + "..."}</summary>
               </div>
             </Link>
           </div>

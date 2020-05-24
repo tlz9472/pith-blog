@@ -22,7 +22,7 @@ export async function getStaticProps({ params }) {
 
 export default function Post({ postData }) {
     return (
-        <Layout title={`${postData.title} - Pith Blog`} description="Test">
+        <Layout title={`${postData.title} - Pith Blog`} description={postData.summary}>
             <div className="post-wrapper">
                 <h2 className="post-title large">{postData.title}</h2>
                 <Date className="post-date" dateString={postData.date} />

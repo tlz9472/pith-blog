@@ -9,6 +9,7 @@ export default function Layout({ children, description, title }) {
         <div>
             <Head>
                 <link rel="stylesheet" href="/global.css" />
+                <meta name="description" content={description} />
                 <title>{title}</title>
             </Head>
             <div>
