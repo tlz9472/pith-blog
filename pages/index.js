@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
                 <h2 className="post-title">{title}</h2>
                 <Date className="post-date" dateString={date} />
                 <div className="post-author">{author}</div>
-                <summary className="post-summary">{summary.substring(0, 155) + "..."}</summary>
+                <summary className="post-summary">{summary.substring(0, 150) + "..."}</summary>
               </div>
             </Link>
           </div>
