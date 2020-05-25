@@ -40,14 +40,14 @@ body {
     font-size: 1.2rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1450px) {
     body {
-      font-size: 1.4rem; 
-    } 
-    :root {
-         --post-width: 750px;
+        font-size: 1.4rem;
     }
-  }
+    :root {
+        --post-width: 750px;
+    }
+}
 
 nav {
     max-width: 1400px;
@@ -151,7 +151,7 @@ p,
 ol,
 ul {
     color: var(--body-text);
-   /* font-size: 110%;*/
+    /* font-size: 110%;*/
 }
 
 h1,
