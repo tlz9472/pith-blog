@@ -4,7 +4,7 @@ date: "2020-05-24"
 author: "Sydney Zheng"
 summary: "How do we represent discussion in a way people can easily interact with? Discussion is more than just decision-making/debating. There are also the small conversations around this high-level process when people come to agreement on the meaning of related concepts"
 ---
-## What Discussion is
+## What discussion is
 
 How do we represent discussion in a way people can easily interact with?
 
